@@ -29,14 +29,14 @@ function App () {
         </Stack>
 
           <strong style={{ fontSize: '18px', marginBottom: '48px', display: 'block' }}>
-            Desarrollado en React ⚛️ <a style={{ color: 'yellow' }} href='https://github.com/midudev/aprendiendo-react'>¡Haz click aquí!</a>
+            Desarrollado en React ⚛️ <a style={{ color: 'yellow' }} href='https://github.com/D3R5'>Mi github</a>
           </strong>
 
         {questions.length === 0 && <Start />}
         {questions.length > 0 && unanswered > 0 && <Game />}
         {questions.length > 0 && unanswered === 0 && <Results />}
 
-        <strong style={{ display: 'block', fontSize: '14px', marginTop: '48px' }}>Desarrollado con TypeScript + Zustand - <a style={{ color: 'yellow' }} href='https://github.com/midudev/aprendiendo-react/tree/master/projects/13-javascript-quiz-con-zustand'>Ir al código</a></strong>
+        <strong style={{ display: 'block', fontSize: '14px', marginTop: '48px' }}>Desarrollado con React + TypeScript + Zustand - <a style={{ color: 'yellow' }} href='https://github.com/D3R5/Quizz'>Ir al código</a></strong>
 
       </Container>
     </main>
