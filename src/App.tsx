@@ -1,12 +1,12 @@
-import "./App.css";
-import { Container, Stack, Typography, useTheme } from "@mui/material";
-import { JavaScriptLogo } from "./JavaScriptLogo";
-import { Start } from "./Start";
-import { useQuestionsStore } from "./store/questions";
-import { Game } from "./Game";
-import { useQuestionsData } from "./hooks/useQuestionsData";
-import { Results } from "./Results";
-import useMediaQuery from "@mui/material/useMediaQuery";
+import './App.css';
+import { Container, Stack, Typography, useTheme } from '@mui/material';
+import { JavaScriptLogo } from './JavaScriptLogo';
+import { Start } from './Start';
+import { useQuestionsStore } from './store/questions';
+import { Game } from './Game';
+import { useQuestionsData } from './hooks/useQuestionsData';
+import { Results } from './Results';
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 function App() {
   const questions = useQuestionsStore((state) => state.questions);
