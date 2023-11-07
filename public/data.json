@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cuál es la salida de este código?",
+    "code": "console.log(typeof [1, 2, 3]);",
+    "answers": [
+      "object",
+      "array",
+      "undefined",
+      "number"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 2,
+    "question": "¿Qué valor tiene la variable `x` después de ejecutar este código?",
+    "code": "let x = 5; x += \"2\";",
+    "answers": [
+      "\"7\"",
+      "7",
+      "\"52\"",
+      "52"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 3,
+    "question": "¿Qué hace el siguiente código?",
+    "code": "let arr = [1, 2, 3]; arr.length = 0;",
+    "answers": [
+      "Vacía el array.",
+      "Elimina el último elemento del array.",
+      "No hace nada, el array permanece igual.",
+      "Lanza un error."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 4,
+    "question": "¿Cuál es la salida de este código?",
+    "code": "console.log(2 + 2 + \"2\" - 2);",
+    "answers": [
+      "\"22\"",
+      "22",
+      "\"42\"",
+      "42"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 5,
+    "question": "¿Qué tipo de dato representa `typeof NaN`?",
+    "code": "typeof NaN",
+    "answers": [
+      "\"undefined\"",
+      "\"string\"",
+      "\"number\"",
+      "\"NaN\""
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 6,
+    "question": "¿Cuál es la salida de este código?",
+    "code": "console.log(3 === \"3\");",
+    "answers": [
+      "true",
+      "false",
+      "undefined",
+      "\"3\""
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 7,
+    "question": "¿Cuál es el resultado de la siguiente expresión?",
+    "code": "parseInt('10.5')",
+    "answers": [
+      "10.5",
+      "10",
+      "5",
+      "\"Error\""
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 8,
+    "question": "¿Qué hace el operador `===` en JavaScript?",
+    "code": "No hay código, es una pregunta conceptual.",
+    "answers": [
+      "Compara valores y tipos de datos sin realizar conversión de tipos.",
+      "Compara valores y tipos de datos con conversión automática de tipos.",
+      "Compara solo valores, no tipos de datos.",
+      "Lanza un error si los valores son de tipos diferentes."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 9,
+    "question": "¿Cuál es la salida de este código?",
+    "code": "console.log([1, 2, 3] === [1, 2, 3]);",
+    "answers": [
+      "true",
+      "false",
+      "undefined",
+      "null"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 10,
+    "question": "¿Cuál es el resultado de la siguiente expresión?",
+    "code": "'Hello' + 5 * 2",
+    "answers": [
+      "\"Hello52\"",
+      "\"Hello10\"",
+      "\"Hello7\"",
+      "\"Hello25\""
+    ],
+    "correctAnswer": 1
+  }
+]
