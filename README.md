@@ -1,5 +1,7 @@
 # Quiz with React + TypeScript + Vite
 - Quiz questions about javascript, with the ability to mark if the answer is correct or incorrect, allows you to reset the game.
+- Clone the repository, give it npm i, then npm run dev
+
 
 ## Homepage
 ![quiz1](https://github.com/D3R5/Quizz/assets/117954097/e66566df-a545-46ea-92fa-e517f9a207ff)
