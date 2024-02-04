@@ -1,27 +1,14 @@
-# React + TypeScript + Vite
+# Quiz with React + TypeScript + Vite
+- Quiz questions about javascript, with the ability to mark if the answer is correct or incorrect, allows you to reset the game.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Homepage
+![quiz1](https://github.com/D3R5/Quizz/assets/117954097/e66566df-a545-46ea-92fa-e517f9a207ff)
 
-Currently, two official plugins are available:
+## Question format
+![quiz2](https://github.com/D3R5/Quizz/assets/117954097/bcb983c0-7231-44ab-8cad-9a83b4f2460d)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Correct answer
+![quiz3](https://github.com/D3R5/Quizz/assets/117954097/b9581cba-17ea-48da-bcda-e40ef4647c35)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Wrong answer
+![quiz4](https://github.com/D3R5/Quizz/assets/117954097/b4f2cce4-4917-4ae5-bb98-4ea740733680)
